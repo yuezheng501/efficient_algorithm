@@ -6,5 +6,8 @@ while True:
     for i in range(2, n+1):
         result.append((result[i-2] + result[i-1]) % 10)
     break
+
+
+
 x = len(str(result[n]))
 print(str(result[n])[x-1])
